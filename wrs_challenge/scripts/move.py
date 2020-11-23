@@ -56,4 +56,5 @@ if __name__=='__main__':
         rospy.logerr('fail to move')
         sys.exit()
 
-    print("finished! updated")
+    print("finished! updated2")
+    #utils.move_base_goal(1.5, 3, 180)
