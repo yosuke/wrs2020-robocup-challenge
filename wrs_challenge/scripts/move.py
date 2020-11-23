@@ -56,4 +56,4 @@ if __name__=='__main__':
         rospy.logerr('fail to move')
         sys.exit()
 
-    print("finished!")
+    print("finished! updated")
