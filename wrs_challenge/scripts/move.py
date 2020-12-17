@@ -56,5 +56,6 @@ if __name__=='__main__':
         rospy.logerr('fail to move')
         sys.exit()
 
-    print("finished! updated2")
-    #utils.move_base_goal(1.5, 3, 180)
+    utils.move_base_goal(1.5, 3, 180)
+    
+    rospy.sleep(25.0*60.0) # test timeout
