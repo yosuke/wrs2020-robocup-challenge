@@ -55,3 +55,5 @@ if __name__=='__main__':
     except:
         rospy.logerr('fail to move')
         sys.exit()
+
+    utils.move_base_goal(1.5, 3, 180)
